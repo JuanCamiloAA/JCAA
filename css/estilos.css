@@ -18,6 +18,7 @@ body {
 }
 
 .contenedorMenu {
+    height: 90%;
     box-shadow: 0px 10px 30px rgb(14, 13, 13);
     position: fixed;
     left: 5%;
@@ -193,5 +194,47 @@ body {
     .contenedorContenido {
         position: relative;
         margin-top: 100%;
+    }
+}
+
+@media (max-width: 300px) {
+    .contenedorMenu {
+        position: absolute;
+        width: 90%;
+    }
+    .contenedorMenu .copyright {
+        padding-top: 10%;
+    }
+    .contenedorContenido {
+        position: relative;
+        margin-top: 210%;
+    }
+}
+
+@media (max-width: 400px) {
+    .contenedorMenu {
+        position: absolute;
+        width: 90%;
+    }
+    .contenedorMenu .copyright {
+        padding-top: 10%;
+    }
+    .contenedorContenido {
+        position: relative;
+        margin-top: 190%;
+    }
+}
+
+@media (max-width: 500px) {
+    .contenedorMenu {
+        position: absolute;
+        width: 90%;
+    }
+    .contenedorMenu .copyright {
+        padding-top: 10%;
+    }
+    .contenedorContenido {
+        position: relative;
+        margin-top: 150%;
     }
 }
