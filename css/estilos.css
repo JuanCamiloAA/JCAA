@@ -130,6 +130,11 @@ body {
     padding-top: 5%;
 }
 
+.padHabilidades {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
 
 /* ========================ESTUDIOS==================== */
 
@@ -143,6 +148,7 @@ body {
 .textoEstudios {
     display: flex;
     flex-direction: column;
+    padding-top: 4%;
 }
 
 .primaria {
@@ -179,6 +185,11 @@ body {
     color: aliceblue;
 }
 
+.error {
+    color: red;
+    text-align: center;
+}
+
 .mapaImagen {
     opacity: 0.6;
 }
@@ -194,6 +205,21 @@ body {
     .contenedorContenido {
         position: relative;
         margin-top: 100%;
+    }
+    .padHabilidades {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .formularioIsquierdo {
+        background: url(../imgene-\ iconos/formulario.jpg);
+        background-size: cover;
+        border-bottom-left-radius: 0%;
+        border-top-right-radius: 15px;
+    }
+    .formularioDerecho {
+        background: rgb(26, 25, 25);
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0%;
     }
 }
 
